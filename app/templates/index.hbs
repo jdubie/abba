@@ -1,0 +1,24 @@
+<h1>
+  {{#if title}}
+    {{title}}
+  {{else}}
+    Put your own title here
+  {{/if}}
+</h1>
+
+<p>
+  {{#if description}}
+    {{description}}
+  {{else}}
+    This space is here for you to describe the task at hand.
+  {{/if}}
+</p>
+
+<ul>
+  {{#each items}}
+    <li>item</li>
+  {{/each}}
+    
+  <li>add item</li>
+
+</ul>
